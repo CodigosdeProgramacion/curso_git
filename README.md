@@ -10,6 +10,10 @@
 - Conocimientos básicos en Git y GitHub
 - Conocimientos básicos en HTML5 o CSS, entre otros para web.
 
+### Opcional
+
+- Conocimientos en docker
+
 ## Instrucciones para descarga 🔧
 - Hacer Fork del proyecto, entrando al repositorio y pulsando el botón "Fork", arriba a la derecha. 
 
@@ -24,6 +28,10 @@ Rama para Frontend -> Diseño
 Rama para Backend -> Desarrollo
 
 ```git checkout desarrollo```
+
+*Si usas docker puedes ejecutar el archivo `Dockerfile` con*
+
+```docker build```
 
 ## Actividades para Frontend y Backend 💻🖥
 
@@ -54,3 +62,4 @@ Solicitar en GitHub ```Compare & pull request``` al repositorio original selecci
 ## Autores y colaboradores
 *Menciona a todos aquellos que ayudaron a realizar esta practica*
 - **Marko Robles** - Proyecto Inicial - @markorobles
+- **ElWazy** - Desarrollo Backend - @ElWazy
