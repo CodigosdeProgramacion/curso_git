@@ -42,9 +42,9 @@ Rama para Backend -> Desarrollo
 
 ###### BackEnd
 
-- Guardar datos del formulario de contacto en base de datos en MySQL.
-- Validar datos enviados de contacto.
-- Enviar email.
+- [ ] Guardar datos del formulario de contacto en base de datos en MySQL.
+- [ ] Validar datos enviados de contacto.
+- [ ] Enviar email.
 
 ## Enviar actividades 🚀
 
