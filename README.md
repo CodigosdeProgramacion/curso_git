@@ -11,9 +11,11 @@
 - Conocimientos básicos en HTML5 o CSS, entre otros para web.
 
 ## Instrucciones para descarga 🔧
-Clona el repositorio a tu equipo:
+- Hacer Fork del proyecto, entrando al repositorio y pulsando el botón "Fork", arriba a la derecha. 
+
+- Clona tu fork a tu equipo:
 ```
-git clone https://github.com/CodigosdeProgramacion/curso_git.git
+git clone https://github.com/TuUsuario/curso_git.git
 ```
 Rama para Frontend -> Diseño
 
@@ -45,6 +47,8 @@ Rama para Frontend -> Diseño
 Rama para Backend -> Desarrollo
 
 ```git push origin desarrollo```
+
+Solicitar en GitHub ```Compare & pull request``` al repositorio original seleccionando la rama que pertenece.
 
 
 ## Autores y colaboradores
