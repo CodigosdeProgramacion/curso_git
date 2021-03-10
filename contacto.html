@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Contacto</title>
-	</head>
-	<body>
-		
-		<h1>Contactanos</h1>
-		
-		<form method="post" action="guarda_contacto.php" autocomplete="off">
-			Nombre <input type="text" id="nombre" name="nombre" />
-			<br />
-			Correo <input type="email" id="correo" name="correo" />
-			<br />
-			Mensaje <textarea id="mensaje" name="mensaje"></textarea>
-			<br />
-			<button id="enviar" name="enviar">Enviar</button>
-		</form>
-		
-		<a href="index.html">Regresar</a>
-		
-	</body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<!-- Content here -->
+
+		<h1>Contáctanos</h1>
+
+		<div class="col-12 col-lg-6"><!-- pantalla grande a la mitad, pantalla pequeña toda la pantalla -->
+			<form method="post" action="guarda_contacto.php" autocomplete="off">
+				<div class="form-group">
+					<label for="nombre">Nombre</label>
+					<input type="text" class="form-control" id="nombre" name="nombre">
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" class="form-control" id="email" name="email">
+				</div>
+
+				<div class="form-group">
+					<label for="mensaje">Mensaje</label>
+					<textarea class="form-control" id="mensaje" name="mensaje"></textarea>
+				</div>
+
+				<button type="submit" class="btn btn-primary" name="enviar">Enviar</button>
+				<a href="index.html" class="btn btn-success">Regresar</a>
+			</form>
+		</div>
+	</div>
+	<script src="js/jquery-3.5.1.slim.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
