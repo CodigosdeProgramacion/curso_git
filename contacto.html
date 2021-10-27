@@ -4,22 +4,36 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Contacto</title>
+		<link rel="stylesheet" href="animate.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="animate.css">
 	</head>
 	<body>
-		
-		<h1>Contactanos</h1>
-		
-		<form method="post" action="guarda_contacto.php" autocomplete="off">
-			Nombre <input type="text" id="nombre" name="nombre" />
-			<br />
-			Correo <input type="email" id="correo" name="correo" />
-			<br />
-			Mensaje <textarea id="mensaje" name="mensaje"></textarea>
-			<br />
-			<button id="enviar" name="enviar">Enviar</button>
-		</form>
-		
-		<a href="index.html">Regresar</a>
+		<div class="container">
+			<h1>Contactanos</h1>
+			<div class="col-12 col-lg-6">
+				<form method="post" action="guarda_contacto.php" autocomplete="off">
+					<div class="form-group">
+				  		<label for="nombre">Nombre</label>
+				  		<input type="text" class="form-control" id="nombre" name = "nombre">
+					</div>
+					<div class="form-group">
+				  		<label for="correo">Correo Electronico</label>
+				  		<input type="email" class="form-control" id="correo" name = "correo">
+					</div>
+					<div class="form-group">
+				  		<label for="mensaje">Mensaje</label>
+				  		<textarea class="form-control" id="mensaje" name = "mensaje"></textarea>
+					</div>
+
+					<button id="enviar" name="enviar" class = "btn btn-primary">Enviar</button>
+					<a href="index.html" class = "btn btn-success">Regresar</a>
+				</form>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
 		
 	</body>
 </html>
