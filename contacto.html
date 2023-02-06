@@ -4,22 +4,34 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Contacto</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 	</head>
 	<body>
-		
+		<div class="container"></div>
 		<h1>Contactanos</h1>
+		<div class="col-12 col-lg-6"
+			<form method="post" action="guarda_contacto.php" autocomplete="off">
+				<div class="form-group">
+					<label for="nombre">Nombre</label>
+					<input type="text" class="form-control" id="nombre"name ="nombre">
+				</div>
+				<div class="form-group">
+					<label for="nombre">Correo electrónico</label>
+					<input type="email" class="form-control" id="correo"name ="correo">
+				</div>
+				<div class="form-group">
+					<label for="nombre">Mensaje</label>
+					<textarea class="form-control" id="mensaje"name ="mensaje"></textarea>
+				</div>
 		
-		<form method="post" action="guarda_contacto.php" autocomplete="off">
-			Nombre <input type="text" id="nombre" name="nombre" />
-			<br />
-			Correo <input type="email" id="correo" name="correo" />
-			<br />
-			Mensaje <textarea id="mensaje" name="mensaje"></textarea>
-			<br />
-			<button id="enviar" name="enviar">Enviar</button>
-		</form>
+				<button id="enviar" name="enviar" class="btn btn-primary">Enviar</button>
+				<a href="index.html" class="btn btn-success">Regresar</a>
+			</form>
 		
-		<a href="index.html">Regresar</a>
-		
+		</div>
+		</div>
+		<script src="js/jquery.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+	
 	</body>
 </html>
