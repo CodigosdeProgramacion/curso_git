@@ -2,7 +2,7 @@
 
 *La intención es hacer una practica real de colaboración entre un equipo de trabajo remoto usando Git y GitHub.*
 
-[Curso de Git y GitHub](https://pages.github.com/)
+[Curso de Git y GitHub](https://www.youtube.com/playlist?list=PL-Mlm_HYjCo8NUl5AbZNfk0CGWlejRKTk)
 
 ## Requerimientos 📋
 - Instala la ultima versión de git en tu computadora.
@@ -52,5 +52,4 @@ Solicitar en GitHub ```Compare & pull request``` al repositorio original selecci
 
 
 ## Autores y colaboradores
-*Menciona a todos aquellos que ayudaron a realizar esta practica*
-- **Marko Robles** - Proyecto Inicial - @markorobles
+- **Marko Robles** - Proyecto Inicial - @mroblesdev
